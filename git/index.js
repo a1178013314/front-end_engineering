@@ -1,1 +1,1 @@
-console.log(`当前文件路径:${__dirname}`)
+console.log(`当前文件路径是:${__dirname}`)
