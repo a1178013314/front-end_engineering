@@ -1,6 +1,6 @@
 let fs = require('fs')
 let path = require('path')
-// console.log(`当前文件路径是:${__dirname}`)
+console.log(`当前文件路径是:${__dirname}`)
 
 if (__dirname.indexOf("package") !== -1) {
     copyGitattributes()
