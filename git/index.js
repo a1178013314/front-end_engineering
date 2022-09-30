@@ -24,8 +24,8 @@ function copyGitattributes() {
 
 function copyGitignore() {
     //路径问题不要太纠结先实现基本功能
-    let fromPath = path.join(__dirname, "..gitignore")
-    let toPaht = path.join(__dirname, "..", "..", "..", "..gitignore")
+    let fromPath = path.join(__dirname, ".gitignore")
+    let toPaht = path.join(__dirname, "..", "..", "..", ".gitignore")
     fs.readFile(fromPath, (err, data) => {
         fs.writeFile(toPaht, data, (err, deta) => {
             if (err) {
